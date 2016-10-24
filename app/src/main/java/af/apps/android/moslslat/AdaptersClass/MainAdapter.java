@@ -30,9 +30,9 @@ import af.apps.android.moslslat.R;
 
     public class ViewHolder extends RecyclerView.ViewHolder {//Variables mainadapter.xml
 
-        LinearLayout mainholdre;
+       // LinearLayout mainholdre;
         ImageView imageView;//placeimage
-        LinearLayout placenameholder;
+       // LinearLayout placenameholder;
         TextView textView;//placename
 
 
@@ -40,9 +40,9 @@ import af.apps.android.moslslat.R;
             super(itemView);
             ir = new ImageRes();
             images = ir.imagemainres;//get from ImageRes Class-> imagemainres Array
-            mainholdre = (LinearLayout)itemView.findViewById(R.id.mainholdre);
+        //    mainholdre = (LinearLayout)itemView.findViewById(R.id.mainholdre);
             imageView = (ImageView) itemView.findViewById(R.id.placeImage);
-            placenameholder = (LinearLayout)itemView.findViewById(R.id.placeNameHolder);
+        //    placenameholder = (LinearLayout)itemView.findViewById(R.id.placeNameHolder);
             textView = (TextView)itemView.findViewById(R.id.placeName);
             //get from res/value/strings.xml->string-array(mainstring)
             plcaenmaeRes = itemView.getResources().getStringArray(R.array.mainstring);

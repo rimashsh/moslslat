@@ -2,6 +2,7 @@
 <resources>
     <color name="colorPrimary">#FF9888</color>
     <color name="colorPrimaryDark">#ff6872</color>
-    <color name="colorAccent">#ffffff</color>
+    <color name="colorAccent">#ff6872</color>
     <color name="linearBar">#4aff9888</color>
+    
 </resources>
