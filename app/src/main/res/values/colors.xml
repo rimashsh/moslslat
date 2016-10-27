@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#FF9888</color>
-    <color name="colorPrimaryDark">#ff6872</color>
-    <color name="colorAccent">#ff6872</color>
-    <color name="linearBar">#4aff9888</color>
+    <color name="colorPrimary">#E87D86</color>
+    <color name="colorPrimaryDark">#FF5959</color>
+    <color name="colorAccent">#E5C852</color>
+    <color name="linearBar">#9f2e294e</color>
+    <color name="textcolor">#F4F4F4</color>
     
 </resources>
