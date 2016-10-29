@@ -1,6 +1,7 @@
 package af.apps.android.moslslat.AdaptersClass;
 
 import android.content.Context;
+import android.content.Intent;
 import android.media.Image;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -11,6 +12,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import af.apps.android.moslslat.ImageRes;
+import af.apps.android.moslslat.Items1activity;
 import af.apps.android.moslslat.R;
 
 /**
@@ -56,9 +58,20 @@ import af.apps.android.moslslat.R;
     }//End ViewHolder
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
+    public void onBindViewHolder(ViewHolder holder, final int position) {
     holder.textView.setText(plcaenmaeRes[position]);
     holder.imageView.setImageResource(images[position]);
+        holder.imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                switch (position){
+                    case 0:
+                        Intent i0 = new Intent(context, Items1activity.class);
+                        context.startActivity(i0);
+                        break;
+                }
+            }
+        });
     }
 
     @Override

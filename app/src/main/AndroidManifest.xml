@@ -16,6 +16,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
+        <!--Start item1activity-->
+        <activity android:name=".Items1activity"
+            android:label="مسلسلات سورية"
+            android:parentActivityName=".MainActivity">
+
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value="af.apps.android.moslslat.MainActivity"/>
+        </activity>
+        <!--End item1activity-->
     </application>
 
 </manifest>

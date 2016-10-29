@@ -8,5 +8,12 @@
         <item>مسلسلات مصرية</item>
         <item>مسلسلات سورية كلاسيكية</item>
     </string-array>
+    <string-array name="stringarrayitem1">
+        <item>مسلسلات سورية</item>
+        <item>مسلسلات الدراما</item>
+        <item>مسلسلات كوميديا</item>
+        <item>مسلسلات دراما كلاسيكية</item>
+        <item>مسلسلات مصرية</item>
+    </string-array>
     <string name="title_activity_recycler_one">RecyclerOne</string>
 </resources>
