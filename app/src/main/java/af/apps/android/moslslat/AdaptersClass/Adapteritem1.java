@@ -35,24 +35,22 @@ import af.apps.android.moslslat.R;
             super(itemView);
             getimage = new ImageRes();
             imageres = getimage.imageitem1res;
-            image1 = (ImageView)itemView.findViewById(R.id.placeImageitem1);
-            textView1 = (TextView)itemView.findViewById(R.id.placeNameitem1);
+            image1 = (ImageView)itemView.findViewById(R.id.placeImage);
+            textView1 = (TextView)itemView.findViewById(R.id.placeName);
             textres = itemView.getResources().getStringArray(R.array.stringarrayitem1);
         }
     }
 
     @Override
     public Adapteritem1.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.activity_adapter1,parent,false);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.mainadapter_activity,parent,false);
         return new ViewHolder(v);
     }
     @Override
     public void onBindViewHolder(Adapteritem1.ViewHolder holder, final int position) {
    holder.textView1.setText(textres[position]);
    holder.image1.setImageResource(imageres[position]);
-
     }
-
     @Override
     public int getItemCount() {
         ImageRes g = new ImageRes();

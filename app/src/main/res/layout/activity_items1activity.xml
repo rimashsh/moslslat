@@ -4,6 +4,7 @@
     android:id="@+id/activity_items1activity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backgrounditem1"
     tools:context="af.apps.android.moslslat.Items1activity">
 
     <android.support.v7.widget.RecyclerView

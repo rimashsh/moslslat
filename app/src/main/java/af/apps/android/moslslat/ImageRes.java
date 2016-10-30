@@ -7,6 +7,6 @@ package af.apps.android.moslslat;
 public class ImageRes {//Storage All Image Array
     public Integer imagemainres[] = {R.drawable.mainitem1,R.drawable.image,R.drawable.image
             ,R.drawable.image,R.drawable.image};//MainAdapter.java
-    public Integer imageitem1res[] = {R.drawable.mainitem1,R.drawable.mainitem1
-    ,R.drawable.mainitem1,R.drawable.mainitem1,R.drawable.mainitem1};
+    public Integer imageitem1res[] = {R.drawable.m1,R.drawable.m2,R.drawable.m3
+            ,R.drawable.m4,R.drawable.m5};
 }
